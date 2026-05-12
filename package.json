@@ -1,0 +1,8 @@
+{
+  "name": "saltyonsecurity",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@cloudflare/pages-plugin-mailchannels": "^0.1.0"
+  }
+}
