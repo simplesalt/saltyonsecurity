@@ -15,7 +15,7 @@ thumb_img_alt: your blanket
 
 Last month, Vercel announced that sensitive information was stolen by hackers over the course of several months, including API keys, tokens, session tokens, and credentials. 
 
-if you aren't familiar, Vercel is a cloud hosting company much-beloved by the appdev crowd. They wrote next.js, and their ecosystem lets you build SaaS apps fast without messing with servers or infrastructure. It Just Works**(R)**
+if you aren't familiar, Vercel is a cloud hosting company much-beloved by the appdev crowd. They wrote next.js, and their ecosystem lets you build SaaS apps fast without messing with servers or infrastructure. It Just Works&reg;
 
 ## What went wrong
 
