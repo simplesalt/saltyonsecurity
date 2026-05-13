@@ -2,13 +2,15 @@
 title: "Lessons from the Vercel Breach"
 subtitle: "How to tell if your cloud provider has terrible security; part 37"
 date: '2026-05-12'
-excerpt: "If your customer data can be stolen because one IT person tried out the wrong software, that is not a 'we got unlucky' failure. That kind of failure says you don't care."
+excerpt: "If your customer data can be stolen because one IT person tried out the wrong software, that is not a 'we got unlucky' failure. That kind of failure says you don't care. You would never know that Vercel had this problem from their cyber marketing. I'm sure their SOC2 is spotless, their pen tests were glowing, and ISO 27k cert is probably written by the most respectable consultant you can imagine. But the laziness that caused this problem is not on any security framework except maybe CIS CSC (which almost nobody audits to). There isn't even a standard industry buzzword for being decent at this."
 seo:
   title: "Lessons from the Vercel Breach"
   description: "The core issue is common, easy to fix, but hard for a buyer to detect. Here's how to avoid the next one."
   robots: []
   extra: []
 layout: post
+thumb_img_path: /images/blanket.webp
+thumb_img_alt: your blanket
 ---
 
 Last month, Vercel announced that sensitive information was stolen by hackers over the course of several months, including API keys, tokens, session tokens, and credentials. 
@@ -33,7 +35,11 @@ Some have said that the customers are at fault, because in Vercel's ecosystem, i
 
 I can guarantee you that the IT admin did not need all this access, but I can guess why they had it. Direct access is control, and control makes us feel safe and cozy. They *needed* the access in case something goes wrong. 
 
-Because IT people are people, they don't see themselves as a source of failure. They don't see themselves, their account, or their access as a risk. Problems are usually caused by other people, right? Worse, they tend to interpret governance as a personal indictment of their character and judgment: if someone tries to take access away from them, they get offended.
+![safe and cozy!](/images/blanket.webp) |
+|:---:|
+| *having control: humanity's blankie since 500k BC.* |
+
+Because IT people are people, they don't see themselves as a source of failure. Problems are usually caused by other people, right? They don't see themselves, their account, or their access as a risk. Worse, they tend to interpret governance as a personal indictment of their character and judgment: if someone tries to take access away from them, they get offended.
 
 This blindness makes the benefit of being in control (even if marginal) seem like the safer option.  
 
